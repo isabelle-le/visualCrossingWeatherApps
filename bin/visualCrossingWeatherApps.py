@@ -13,7 +13,7 @@ class MyScript(Script):
         scheme = Scheme("Visual Crossing Weather")
         scheme.use_external_validation = False
         scheme.use_single_instance = False
-        scheme.description = "TMDB Modular Input"
+        scheme.description = "Visual Crossing Weather Input"
 
         api_key = Argument("api_key")
         api_key.title = "API Key"
